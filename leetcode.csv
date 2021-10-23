@@ -1,108 +1,763 @@
 id,title,likes,dislikes,like/dislikes_ratio,difficulty
-49,Group Anagrams,7150,260,27.5,Medium
-211,Design Add and Search Words Data Structure,3580,150,23.866666666666667,Medium
-316,Remove Duplicate Letters,3387,236,14.351694915254237,Medium
-50,"Pow(x, n)",3228,4414,0.7313094698685999,Medium
+3,Longest Substring Without Repeating Characters,18367,845,21.736094674556213,Medium
+2,Add Two Numbers,14452,3189,4.531828159297586,Medium
+15,3Sum,13659,1317,10.37129840546697,Medium
+200,Number of Islands,10673,274,38.95255474452555,Medium
+146,LRU Cache,10571,415,25.472289156626506,Medium
+33,Search in Rotated Sorted Array,10523,771,13.648508430609597,Medium
+22,Generate Parentheses,10172,404,25.178217821782177,Medium
+56,Merge Intervals,9932,440,22.572727272727274,Medium
+287,Find the Duplicate Number,9875,1004,9.835657370517929,Medium
+560,Subarray Sum Equals K,9493,314,30.23248407643312,Medium
+238,Product of Array Except Self,9298,617,15.06969205834684,Medium
+198,House Robber,8912,221,40.32579185520362,Medium
+322,Coin Change,8745,223,39.2152466367713,Medium
+152,Maximum Product Subarray,8655,270,32.05555555555556,Medium
+55,Jump Game,8504,501,16.974051896207584,Medium
+139,Word Break,8369,385,21.73766233766234,Medium
+34,Find First and Last Position of Element in Sorted Array,7747,245,31.620408163265306,Medium
+39,Combination Sum,7728,184,42.0,Medium
+17,Letter Combinations of a Phone Number,7693,590,13.038983050847458,Medium
+98,Validate Binary Search Tree,7634,775,9.85032258064516,Medium
+236,Lowest Common Ancestor of a Binary Tree,7528,230,32.7304347826087,Medium
+79,Word Search,7474,284,26.316901408450704,Medium
+31,Next Permutation,7459,2460,3.0321138211382115,Medium
+207,Course Schedule,7413,302,24.54635761589404,Medium
+78,Subsets,7347,125,58.776,Medium
+19,Remove Nth Node From End of List,7262,370,19.627027027027026,Medium
+75,Sort Colors,7169,348,20.600574712643677,Medium
+128,Longest Consecutive Sequence,7154,334,21.419161676646706,Medium
+215,Kth Largest Element in an Array,7147,415,17.221686746987952,Medium
+48,Rotate Image,6734,407,16.545454545454547,Medium
+437,Path Sum III,6471,340,19.03235294117647,Medium
+189,Rotate Array,6352,1061,5.986804901036757,Medium
+347,Top K Frequent Elements,6317,303,20.848184818481847,Medium
+394,Decode String,6150,268,22.94776119402985,Medium
+64,Minimum Path Sum,5935,89,66.68539325842697,Medium
+240,Search a 2D Matrix II,5874,106,55.41509433962264,Medium
+7,Reverse Integer,5832,8697,0.6705760607105898,Medium
+279,Perfect Squares,5692,268,21.238805970149254,Medium
+621,Task Scheduler,5685,1060,5.363207547169812,Medium
+416,Partition Equal Subset Sum,5640,100,56.4,Medium
+763,Partition Labels,5633,230,24.491304347826087,Medium
+91,Decode Ways,5602,3609,1.5522305347741756,Medium
+494,Target Sum,5375,211,25.473933649289098,Medium
+142,Linked List Cycle II,5296,357,14.834733893557424,Medium
+647,Palindromic Substrings,5247,144,36.4375,Medium
+739,Daily Temperatures,5219,140,37.27857142857143,Medium
+148,Sort List,5208,193,26.984455958549223,Medium
+438,Find All Anagrams in a String,5170,215,24.046511627906977,Medium
+210,Course Schedule II,4983,192,25.953125,Medium
+442,Find All Duplicates in an Array,4968,223,22.278026905829595,Medium
+337,House Robber III,4940,80,61.75,Medium
+153,Find Minimum in Rotated Sorted Array,4929,348,14.163793103448276,Medium
+230,Kth Smallest Element in a BST,4918,100,49.18,Medium
+209,Minimum Size Subarray Sum,4885,160,30.53125,Medium
+73,Set Matrix Zeroes,4875,424,11.497641509433961,Medium
+74,Search a 2D Matrix,4833,223,21.672645739910315,Medium
+18,4Sum,4664,549,8.49544626593807,Medium
+131,Palindrome Partitioning,4642,142,32.690140845070424,Medium
+380,Insert Delete GetRandom O(1),4587,256,17.91796875,Medium
+116,Populating Next Right Pointers in Each Node,4585,201,22.81094527363184,Medium
+16,3Sum Closest,4533,210,21.585714285714285,Medium
+253,Meeting Rooms II,4517,88,51.32954545454545,Medium
+406,Queue Reconstruction by Height,4463,484,9.22107438016529,Medium
+103,Binary Tree Zigzag Level Order Traversal,4445,145,30.655172413793103,Medium
+162,Find Peak Element,4311,3149,1.3690060336614798,Medium
+516,Longest Palindromic Subsequence,4159,231,18.004329004329005,Medium
+399,Evaluate Division,4151,339,12.244837758112094,Medium
+143,Reorder List,4105,170,24.147058823529413,Medium
+402,Remove K Digits,4023,169,23.80473372781065,Medium
+518,Coin Change 2,4006,87,46.04597701149425,Medium
+973,K Closest Points to Origin,3985,178,22.3876404494382,Medium
+134,Gas Station,3970,491,8.085539714867616,Medium
+547,Number of Provinces,3965,212,18.702830188679247,Medium
+787,Cheapest Flights Within K Stops,3952,161,24.546583850931675,Medium
+328,Odd Even Linked List,3932,356,11.044943820224718,Medium
+179,Largest Number,3917,359,10.910863509749303,Medium
+213,House Robber II,3890,72,54.02777777777778,Medium
+47,Permutations II,3845,85,45.23529411764706,Medium
+120,Triangle,3831,355,10.791549295774647,Medium
+113,Path Sum II,3782,97,38.98969072164948,Medium
+57,Insert Interval,3738,288,12.979166666666666,Medium
+36,Valid Sudoku,3717,638,5.826018808777429,Medium
+767,Reorganize String,3708,162,22.88888888888889,Medium
+692,Top K Frequent Words,3685,225,16.377777777777776,Medium
+90,Subsets II,3662,127,28.834645669291337,Medium
+983,Minimum Cost For Tickets,3657,67,54.582089552238806,Medium
+229,Majority Element II,3630,248,14.637096774193548,Medium
+222,Count Complete Tree Nodes,3612,283,12.763250883392226,Medium
+503,Next Greater Element II,3481,112,31.080357142857142,Medium
+542,01 Matrix,3472,165,21.042424242424243,Medium
+567,Permutation in String,3455,91,37.967032967032964,Medium
+540,Single Element in a Sorted Array,3401,90,37.78888888888889,Medium
+525,Contiguous Array,3388,159,21.30817610062893,Medium
+316,Remove Duplicate Letters,3388,236,14.35593220338983,Medium
+332,Reconstruct Itinerary,3335,1473,2.2640868974881196,Medium
+785,Is Graph Bipartite?,3332,245,13.6,Medium
+658,Find K Closest Elements,3319,369,8.994579945799458,Medium
+665,Non-decreasing Array,3316,657,5.047184170471842,Medium
+451,Sort Characters By Frequency,3311,165,20.066666666666666,Medium
+1004,Max Consecutive Ones III,3310,47,70.42553191489361,Medium
+61,Rotate List,3303,1202,2.7479201331114806,Medium
+264,Ugly Number II,3278,186,17.623655913978496,Medium
+743,Network Delay Time,3256,261,12.475095785440613,Medium
+669,Trim a Binary Search Tree,3225,212,15.212264150943396,Medium
+43,Multiply Strings,3223,1263,2.5518606492478226,Medium
+97,Interleaving String,3203,171,18.730994152046783,Medium
+137,Single Number II,3194,436,7.325688073394495,Medium
+334,Increasing Triplet Subsequence,3111,185,16.816216216216215,Medium
+718,Maximum Length of Repeated Subarray,3109,72,43.18055555555556,Medium
+77,Combinations,3088,107,28.85981308411215,Medium
+721,Accounts Merge,3079,572,5.3828671328671325,Medium
+227,Basic Calculator II,3030,443,6.839729119638826,Medium
+979,Distribute Coins in Binary Tree,3000,92,32.608695652173914,Medium
+129,Sum Root to Leaf Numbers,2991,65,46.01538461538462,Medium
+684,Redundant Connection,2980,274,10.875912408759124,Medium
+986,Interval List Intersections,2970,70,42.42857142857143,Medium
+538,Convert BST to Greater Tree,2938,147,19.98639455782313,Medium
+1011,Capacity To Ship Packages Within D Days,2928,70,41.82857142857143,Medium
+6,ZigZag Conversion,2922,6940,0.42103746397694525,Medium
+445,Add Two Numbers II,2882,218,13.220183486238533,Medium
+662,Maximum Width of Binary Tree,2880,465,6.193548387096774,Medium
+86,Partition List,2844,446,6.376681614349776,Medium
+81,Search in Rotated Sorted Array II,2844,621,4.579710144927536,Medium
+678,Valid Parenthesis String,2820,71,39.71830985915493,Medium
+673,Number of Longest Increasing Subsequence,2798,142,19.704225352112676,Medium
+260,Single Number III,2773,154,18.006493506493506,Medium
+377,Combination Sum IV,2772,316,8.772151898734178,Medium
+430,Flatten a Multilevel Doubly Linked List,2763,209,13.220095693779903,Medium
+456,132 Pattern,2748,154,17.844155844155843,Medium
+687,Longest Univalue Path,2705,589,4.592529711375212,Medium
+417,Pacific Atlantic Water Flow,2701,660,4.092424242424243,Medium
+735,Asteroid Collision,2620,202,12.970297029702971,Medium
+1130,Minimum Cost Tree From Leaf Values,2617,192,13.630208333333334,Medium
+107,Binary Tree Level Order Traversal II,2613,261,10.011494252873563,Medium
+1048,Longest String Chain,2605,128,20.3515625,Medium
+784,Letter Case Permutation,2603,130,20.023076923076925,Medium
+652,Find Duplicate Subtrees,2566,266,9.646616541353383,Medium
+421,Maximum XOR of Two Numbers in an Array,2557,237,10.789029535864978,Medium
+907,Sum of Subarray Minimums,2556,157,16.280254777070063,Medium
+373,Find K Pairs with Smallest Sums,2488,151,16.47682119205298,Medium
+151,Reverse Words in a String,2414,3613,0.6681428176030999,Medium
+841,Keys and Rooms,2380,157,15.159235668789808,Medium
+307,Range Sum Query - Mutable,2368,130,18.215384615384615,Medium
+12,Integer to Roman,2352,3586,0.6558839933073062,Medium
+474,Ones and Zeroes,2349,310,7.577419354838709,Medium
+449,Serialize and Deserialize BST,2316,114,20.31578947368421,Medium
+80,Remove Duplicates from Sorted Array II,2313,841,2.750297265160523,Medium
+413,Arithmetic Slices,2307,212,10.882075471698114,Medium
+752,Open the Lock,2300,79,29.11392405063291,Medium
+1110,Delete Nodes And Return Forest,2292,67,34.208955223880594,Medium
+216,Combination Sum III,2268,69,32.869565217391305,Medium
+792,Number of Matching Subsequences,2267,127,17.8503937007874,Medium
+368,Largest Divisible Subset,2250,104,21.634615384615383,Medium
+29,Divide Two Integers,2248,8128,0.2765748031496063,Medium
+918,Maximum Sum Circular Subarray,2244,95,23.621052631578948,Medium
+1423,Maximum Points You Can Obtain from Cards,2230,94,23.72340425531915,Medium
+583,Delete Operation for Two Strings,2228,39,57.12820512820513,Medium
+452,Minimum Number of Arrows to Burst Balloons,2213,78,28.371794871794872,Medium
+93,Restore IP Addresses,2204,609,3.619047619047619,Medium
+974,Subarray Sums Divisible by K,2191,127,17.251968503937007,Medium
+875,Koko Eating Bananas,2181,119,18.327731092436974,Medium
+376,Wiggle Subsequence,2176,85,25.6,Medium
+1029,Two City Scheduling,2155,215,10.023255813953488,Medium
+59,Spiral Matrix II,2152,146,14.73972602739726,Medium
+946,Validate Stack Sequences,2122,40,53.05,Medium
+1209,Remove All Adjacent Duplicates in String II,2097,45,46.6,Medium
+814,Binary Tree Pruning,2082,64,32.53125,Medium
+701,Insert into a Binary Search Tree,2064,108,19.11111111111111,Medium
+371,Sum of Two Integers,2024,3128,0.6470588235294118,Medium
+894,All Possible Full Binary Trees,2010,158,12.721518987341772,Medium
+201,Bitwise AND of Numbers Range,1977,169,11.698224852071005,Medium
+340,Longest Substring with At Most K Distinct Characters,1938,64,30.28125,Medium
+1302,Deepest Leaves Sum,1915,66,29.015151515151516,Medium
 934,Shortest Bridge,1903,110,17.3,Medium
-314,Binary Tree Vertical Order Traversal,1774,231,7.67965367965368,Medium
-464,Can I Win,1597,257,6.214007782101167,Medium
+286,Walls and Gates,1887,27,69.88888888888889,Medium
+1041,Robot Bounded In Circle,1874,480,3.904166666666667,Medium
+261,Graph Valid Tree,1840,52,35.38461538461539,Medium
+886,Possible Bipartition,1831,46,39.80434782608695,Medium
+646,Maximum Length of Pair Chain,1830,95,19.263157894736842,Medium
+285,Inorder Successor in BST,1799,73,24.643835616438356,Medium
+324,Wiggle Sort II,1761,730,2.4123287671232876,Medium
+1027,Longest Arithmetic Subsequence,1743,87,20.03448275862069,Medium
+1049,Last Stone Weight II,1722,65,26.49230769230769,Medium
+426,Convert Binary Search Tree to Sorted Doubly Linked List,1720,140,12.285714285714286,Medium
+959,Regions Cut By Slashes,1719,347,4.953890489913545,Medium
+1306,Jump Game III,1714,43,39.86046511627907,Medium
+1091,Shortest Path in Binary Matrix,1700,92,18.47826086956522,Medium
+513,Find Bottom Left Tree Value,1695,195,8.692307692307692,Medium
+1438,Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit,1682,75,22.426666666666666,Medium
+172,Factorial Trailing Zeroes,1662,1563,1.0633397312859885,Medium
+877,Stone Game,1662,1794,0.9264214046822743,Medium
+931,Minimum Falling Path Sum,1658,88,18.84090909090909,Medium
+712,Minimum ASCII Delete Sum for Two Strings,1646,59,27.89830508474576,Medium
+498,Diagonal Traverse,1646,453,3.6335540838852096,Medium
+355,Design Twitter,1643,250,6.572,Medium
+729,My Calendar I,1636,54,30.296296296296298,Medium
+554,Brick Wall,1636,85,19.24705882352941,Medium
+688,Knight Probability in Chessboard,1635,261,6.264367816091954,Medium
+443,String Compression,1635,3758,0.43507184672698246,Medium
+865,Smallest Subtree with all the Deepest Nodes,1629,310,5.254838709677419,Medium
+981,Time Based Key-Value Store,1627,175,9.297142857142857,Medium
+1094,Car Pooling,1621,46,35.23913043478261,Medium
+323,Number of Connected Components in an Undirected Graph,1607,52,30.903846153846153,Medium
+950,Reveal Cards In Increasing Order,1580,248,6.370967741935484,Medium
+881,Boats to Save People,1568,51,30.745098039215687,Medium
+791,Custom Sort String,1565,257,6.089494163424124,Medium
+889,Construct Binary Tree from Preorder and Postorder Traversal,1562,73,21.397260273972602,Medium
+1026,Maximum Difference Between Node and Ancestor,1525,46,33.15217391304348,Medium
+187,Repeated DNA Sequences,1507,368,4.095108695652174,Medium
+318,Maximum Product of Word Lengths,1499,92,16.293478260869566,Medium
+694,Number of Distinct Islands,1493,86,17.36046511627907,Medium
+1239,Maximum Length of a Concatenated String with Unique Characters,1488,141,10.553191489361701,Medium
+159,Longest Substring with At Most Two Distinct Characters,1480,22,67.27272727272727,Medium
+845,Longest Mountain in Array,1477,50,29.54,Medium
+331,Verify Preorder Serialization of a Binary Tree,1477,76,19.43421052631579,Medium
+176,Second Highest Salary,1468,647,2.2689335394126737,Medium
+1007,Minimum Domino Rotations For Equal Row,1461,200,7.305,Medium
+1319,Number of Operations to Make Network Connected,1453,23,63.17391304347826,Medium
+532,K-diff Pairs in an Array,1451,1677,0.8652355396541443,Medium
+838,Push Dominoes,1443,94,15.351063829787234,Medium
+769,Max Chunks To Make Sorted,1443,160,9.01875,Medium
+926,Flip String to Monotone Increasing,1434,44,32.59090909090909,Medium
 1641,Count Sorted Vowel Strings,1425,32,44.53125,Medium
+1035,Uncrossed Lines,1415,24,58.958333333333336,Medium
+912,Sort an Array,1408,452,3.1150442477876106,Medium
+325,Maximum Size Subarray Sum Equals k,1406,41,34.292682926829265,Medium
+813,Largest Sum of Averages,1402,67,20.925373134328357,Medium
+807,Max Increase to Keep City Skyline,1399,380,3.681578947368421,Medium
+1031,Maximum Sum of Two Non-Overlapping Subarrays,1375,64,21.484375,Medium
+795,Number of Subarrays with Bounded Maximum,1372,82,16.73170731707317,Medium
+473,Matchsticks to Square,1361,111,12.26126126126126,Medium
+622,Design Circular Queue,1335,154,8.668831168831169,Medium
+636,Exclusive Time of Functions,1311,2060,0.6364077669902912,Medium
 147,Insertion Sort List,1301,718,1.8119777158774373,Medium
+576,Out of Boundary Paths,1293,177,7.305084745762712,Medium
+1382,Balance a Binary Search Tree,1260,45,28.0,Medium
 1305,All Elements in Two Binary Search Trees,1252,47,26.638297872340427,Medium
-1081,Smallest Subsequence of Distinct Characters,1221,127,9.614173228346457,Medium
-978,Longest Turbulent Subarray,1093,159,6.8742138364779874,Medium
+362,Design Hit Counter,1252,111,11.27927927927928,Medium
+779,K-th Symbol in Grammar,1252,223,5.614349775784754,Medium
+1254,Number of Closed Islands,1250,32,39.0625,Medium
+1642,Furthest Building You Can Reach,1244,42,29.61904761904762,Medium
+1504,Count Submatrices With All Ones,1233,92,13.402173913043478,Medium
+873,Length of Longest Fibonacci Subsequence,1232,45,27.377777777777776,Medium
+1162,As Far from Land as Possible,1230,48,25.625,Medium
+490,The Maze,1225,143,8.566433566433567,Medium
+1658,Minimum Operations to Reduce X to Zero,1222,21,58.19047619047619,Medium
+1482,Minimum Number of Days to Make m Bouquets,1219,28,43.535714285714285,Medium
+686,Repeated String Match,1211,874,1.3855835240274599,Medium
+491,Increasing Subsequences,1207,145,8.324137931034484,Medium
+939,Minimum Area Rectangle,1201,196,6.127551020408164,Medium
+419,Battleships in a Board,1191,673,1.7696879643387815,Medium
+1376,Time Needed to Inform All Employees,1189,81,14.679012345679013,Medium
+524,Longest Word in Dictionary through Deleting,1183,317,3.7318611987381702,Medium
+508,Most Frequent Subtree Sum,1167,185,6.308108108108108,Medium
+1171,Remove Zero Sum Consecutive Nodes from Linked List,1145,64,17.890625,Medium
+990,Satisfiability of Equality Equations,1140,13,87.6923076923077,Medium
+299,Bulls and Cows,1138,1178,0.966044142614601,Medium
+846,Hand of Straights,1135,104,10.913461538461538,Medium
+529,Minesweeper,1129,755,1.495364238410596,Medium
+453,Minimum Moves to Equal Array Elements,1129,1417,0.7967537050105857,Medium
+1202,Smallest String With Swaps,1128,38,29.68421052631579,Medium
+1146,Snapshot Array,1128,193,5.844559585492228,Medium
+720,Longest Word in Dictionary,1127,1204,0.936046511627907,Medium
+957,Prison Cells After N Days,1123,1414,0.7942008486562943,Medium
+462,Minimum Moves to Equal Array Elements II,1122,63,17.80952380952381,Medium
+870,Advantage Shuffle,1120,70,16.0,Medium
+475,Heaters,1114,984,1.1321138211382114,Medium
+1161,Maximum Level Sum of a Binary Tree,1102,49,22.489795918367346,Medium
+623,Add One Row to Tree,1089,168,6.482142857142857,Medium
+276,Paint Fence,1088,343,3.17201166180758,Medium
+633,Sum of Square Numbers,1088,438,2.4840182648401825,Medium
+1140,Stone Game II,1085,234,4.636752136752137,Medium
+1367,Linked List in Binary Tree,1077,39,27.615384615384617,Medium
+1721,Swapping Nodes in a Linked List,1072,61,17.57377049180328,Medium
+1060,Missing Element in Sorted Array,1067,44,24.25,Medium
+1325,Delete Leaves With a Given Value,1063,22,48.31818181818182,Medium
+880,Decoded String at Index,1050,172,6.104651162790698,Medium
+1358,Number of Substrings Containing All Three Characters,1048,21,49.904761904761905,Medium
+1186,Maximum Subarray Sum with One Deletion,1045,37,28.243243243243242,Medium
+274,H-Index,1037,1642,0.6315468940316687,Medium
+677,Map Sum Pairs,1034,114,9.070175438596491,Medium
+915,Partition Array into Disjoint Intervals,1033,57,18.12280701754386,Medium
+259,3Sum Smaller,1033,109,9.477064220183486,Medium
+1014,Best Sightseeing Pair,1023,29,35.275862068965516,Medium
+1673,Find the Most Competitive Subsequence,1016,55,18.472727272727273,Medium
+853,Car Fleet,1013,363,2.790633608815427,Medium
+1190,Reverse Substrings Between Each Pair of Parentheses,1005,29,34.6551724137931,Medium
+775,Global and Local Inversions,991,283,3.501766784452297,Medium
+333,Largest BST Subtree,985,87,11.32183908045977,Medium
+731,My Calendar II,980,111,8.82882882882883,Medium
+1338,Reduce Array Size to The Half,977,73,13.383561643835616,Medium
+764,Largest Plus Sign,976,181,5.392265193370166,Medium
+339,Nested List Weight Sum,976,239,4.083682008368201,Medium
+161,One Edit Distance,972,150,6.48,Medium
+1262,Greatest Sum Divisible by Three,955,29,32.93103448275862,Medium
+1557,Minimum Number of Vertices to Reach All Nodes,955,52,18.365384615384617,Medium
+249,Group Shifted Strings,955,181,5.276243093922652,Medium
+1396,Design Underground System,949,64,14.828125,Medium
+436,Find Right Interval,946,222,4.261261261261262,Medium
+962,Maximum Width Ramp,945,25,37.8,Medium
+1525,Number of Good Ways to Split a String,937,25,37.48,Medium
+467,Unique Substrings in Wraparound String,926,125,7.408,Medium
+969,Pancake Sorting,925,1138,0.812829525483304,Medium
+1769,Minimum Number of Operations to Move All Balls to Each Box,921,37,24.89189189189189,Medium
+523,Continuous Subarray Sum,919,155,5.929032258064516,Medium
+505,The Maze II,918,41,22.390243902439025,Medium
+1129,Shortest Path with Alternating Colors,916,46,19.91304347826087,Medium
+38,Count and Say,915,2615,0.34990439770554493,Medium
 1371,Find the Longest Substring Containing Vowels in Even Counts,901,35,25.742857142857144,Medium
+910,Smallest Range II,896,318,2.8176100628930816,Medium
+1123,Lowest Common Ancestor of Deepest Leaves,896,695,1.289208633093525,Medium
 284,Peeking Iterator,895,624,1.4342948717948718,Medium
+545,Boundary of Binary Tree,892,1474,0.6051560379918589,Medium
+1465,Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts,890,213,4.178403755868545,Medium
+370,Range Addition,888,39,22.76923076923077,Medium
+1347,Minimum Number of Steps to Make Two Strings Anagram,884,51,17.333333333333332,Medium
+487,Max Consecutive Ones II,878,14,62.714285714285715,Medium
+638,Shopping Offers,876,579,1.5129533678756477,Medium
 1530,Number of Good Leaf Nodes Pairs,875,19,46.05263157894737,Medium
-1647,Minimum Deletions to Make Character Frequencies Unique,838,21,39.904761904761905,Medium
+184,Department Highest Salary,875,153,5.718954248366013,Medium
+1334,Find the City With the Smallest Number of Neighbors at a Threshold Distance,870,48,18.125,Medium
+676,Implement Magic Dictionary,867,169,5.1301775147929,Medium
+861,Score After Flipping Matrix,864,157,5.503184713375796,Medium
+71,Simplify Path,863,231,3.735930735930736,Medium
+954,Array of Doubled Pairs,861,102,8.441176470588236,Medium
+837,New 21 Game,859,554,1.5505415162454874,Medium
+898,Bitwise ORs of Subarrays,858,164,5.2317073170731705,Medium
+945,Minimum Increment to Make Array Unique,851,37,23.0,Medium
+388,Longest Absolute File Path,847,1922,0.44068678459937566,Medium
+177,Nth Highest Salary,844,568,1.4859154929577465,Medium
+988,Smallest String Starting From Leaf,843,154,5.474025974025974,Medium
+855,Exam Room,843,333,2.5315315315315314,Medium
 255,Verify Preorder Sequence in Binary Search Tree,834,65,12.830769230769231,Medium
+916,Word Subsets,833,115,7.243478260869566,Medium
 549,Binary Tree Longest Consecutive Sequence II,832,63,13.206349206349206,Medium
+1381,Design a Stack With Increment Operation,830,62,13.387096774193548,Medium
+364,Nested List Weight Sum II,827,241,3.4315352697095434,Medium
+1457,Pseudo-Palindromic Paths in a Binary Tree,824,29,28.413793103448278,Medium
+776,Split BST,824,80,10.3,Medium
+1552,Magnetic Force Between Two Balls,821,68,12.073529411764707,Medium
+1145,Binary Tree Coloring Game,817,158,5.170886075949367,Medium
+1372,Longest ZigZag Path in a Binary Tree,814,16,50.875,Medium
+1104,Path In Zigzag Labelled Binary Tree,802,228,3.517543859649123,Medium
+1102,Path With Maximum Minimum Value,793,85,9.329411764705883,Medium
+180,Consecutive Numbers,789,164,4.810975609756097,Medium
 470,Implement Rand10() Using Rand7(),786,257,3.0583657587548636,Medium
 1472,Design Browser History,784,79,9.924050632911392,Medium
+1574,Shortest Subarray to be Removed to Make Array Sorted,783,22,35.59090909090909,Medium
+1020,Number of Enclaves,783,29,27.0,Medium
+1282,Group the People Given the Group Size They Belong To,775,422,1.8364928909952607,Medium
+1509,Minimum Difference Between Largest and Smallest Value in Three Moves,774,107,7.233644859813084,Medium
+298,Binary Tree Longest Consecutive Sequence,770,183,4.2076502732240435,Medium
+967,Numbers With Same Consecutive Differences,769,126,6.103174603174603,Medium
+8,String to Integer (atoi),768,2094,0.3667621776504298,Medium
+582,Kill Process,765,15,51.0,Medium
+616,Add Bold Tag in String,765,120,6.375,Medium
+823,Binary Trees With Factors,762,98,7.775510204081633,Medium
+536,Construct Binary Tree from String,755,124,6.088709677419355,Medium
+1057,Campus Bikes,751,135,5.562962962962963,Medium
 1937,Maximum Number of Points with Cost,742,31,23.93548387096774,Medium
+186,Reverse Words in a String II,740,125,5.92,Medium
+609,Find Duplicate File in System,736,866,0.8498845265588915,Medium
+1055,Shortest Way to Form String,731,43,17.0,Medium
+932,Beautiful Array,728,1030,0.7067961165048544,Medium
+1191,K-Concatenation Maximum Sum,725,69,10.507246376811594,Medium
+1344,Angle Between Hands of a Clock,724,157,4.611464968152866,Medium
+1267,Count Servers that Communicate,723,65,11.123076923076923,Medium
+790,Domino and Tromino Tiling,718,348,2.0632183908045976,Medium
+418,Sentence Screen Fitting,716,360,1.988888888888889,Medium
+1310,XOR Queries of a Subarray,714,28,25.5,Medium
+1247,Minimum Swaps to Make Strings Equal,711,194,3.6649484536082473,Medium
+708,Insert into a Sorted Circular Linked List,711,501,1.4191616766467066,Medium
+1054,Distant Barcodes,709,32,22.15625,Medium
+1135,Connecting Cities With Minimum Cost,707,38,18.605263157894736,Medium
+311,Sparse Matrix Multiplication,704,265,2.6566037735849055,Medium
+1590,Make Sum Divisible by P,701,33,21.242424242424242,Medium
+369,Plus One Linked List,700,38,18.42105263157895,Medium
+1286,Iterator for Combination,682,51,13.372549019607844,Medium
+433,Minimum Genetic Mutation,682,84,8.119047619047619,Medium
+361,Bomb Enemy,679,86,7.895348837209302,Medium
+1605,Find Valid Matrix Given Row and Column Sums,676,23,29.391304347826086,Medium
+390,Elimination Game,672,461,1.4577006507592192,Medium
+1424,Diagonal Traverse II,670,70,9.571428571428571,Medium
 1387,Sort Integers by The Power Value,664,80,8.3,Medium
+742,Closest Leaf in a Binary Tree,664,124,5.354838709677419,Medium
 826,Most Profit Assigning Work,663,94,7.053191489361702,Medium
+1695,Maximum Erasure Value,661,12,55.083333333333336,Medium
+244,Shortest Word Distance II,660,193,3.4196891191709846,Medium
+223,Rectangle Area,658,951,0.6919032597266036,Medium
+397,Integer Replacement,655,399,1.6416040100250626,Medium
+1291,Sequential Digits,652,57,11.43859649122807,Medium
+1497,Check If Array Pairs Are Divisible by k,647,51,12.686274509803921,Medium
+1551,Minimum Operations to Make Array Equal,647,113,5.725663716814159,Medium
+737,Sentence Similarity II,645,39,16.53846153846154,Medium
+306,Additive Number,644,577,1.1161178509532061,Medium
+1234,Replace the Substring for Balanced String,641,138,4.644927536231884,Medium
+247,Strobogrammatic Number II,641,162,3.95679012345679,Medium
+820,Short Encoding of Words,638,243,2.625514403292181,Medium
+1493,Longest Subarray of 1's After Deleting One Element,633,12,52.75,Medium
+1328,Break a Palindrome,629,406,1.5492610837438423,Medium
+971,Flip Binary Tree To Match Preorder Traversal,627,226,2.774336283185841,Medium
+777,Swap Adjacent in LR String,624,564,1.1063829787234043,Medium
+1120,Maximum Average Subtree,623,21,29.666666666666668,Medium
+985,Sum of Even Numbers After Queries,622,204,3.049019607843137,Medium
+1546,Maximum Number of Non-Overlapping Subarrays With Sum Equals Target,619,13,47.61538461538461,Medium
+353,Design Snake Game,619,235,2.6340425531914895,Medium
+1461,Check If a String Contains All Binary Codes of Size K,618,65,9.507692307692308,Medium
+1300,Sum of Mutated Array Closest to Target,618,81,7.62962962962963,Medium
+667,Beautiful Arrangement II,616,930,0.6623655913978495,Medium
+1375,Bulb Switcher III,615,96,6.40625,Medium
+1626,Best Team With No Conflicts,613,26,23.576923076923077,Medium
+365,Water and Jug Problem,608,987,0.6160081053698075,Medium
+291,Word Pattern II,606,47,12.893617021276595,Medium
+1481,Least Number of Unique Integers after K Removals,605,54,11.203703703703704,Medium
+1366,Rank Teams by Votes,604,65,9.292307692307693,Medium
+1689,Partitioning Into Minimum Number Of Deci-Binary Numbers,600,440,1.3636363636363635,Medium
+1156,Swap For Longest Repeated Character Substring,598,57,10.491228070175438,Medium
 1379,Find a Corresponding Node of a Binary Tree in a Clone of That Tree,592,791,0.7484197218710493,Medium
+562,Longest Line of Consecutive One in Matrix,590,93,6.344086021505376,Medium
+1201,Ugly Number III,586,355,1.6507042253521127,Medium
+1856,Maximum Subarray Min-Product,583,30,19.433333333333334,Medium
+468,Validate IP Address,580,2190,0.2648401826484018,Medium
+1524,Number of Sub-arrays With Odd Sum,578,25,23.12,Medium
+1712,Ways to Split Array Into Three Subarrays,575,56,10.267857142857142,Medium
 948,Bag of Tokens,574,286,2.006993006993007,Medium
-1823,Find the Winner of the Circular Game,564,17,33.1764705882353,Medium
-626,Exchange Seats,559,330,1.6939393939393939,Medium
+593,Valid Square,574,673,0.8528974739970282,Medium
+510,Inorder Successor in BST II,573,28,20.464285714285715,Medium
+1456,Maximum Number of Vowels in a Substring of Given Length,571,32,17.84375,Medium
+1462,Course Schedule IV,570,44,12.954545454545455,Medium
+1414,Find the Minimum Number of Fibonacci Numbers Whose Sum Is K,567,46,12.326086956521738,Medium
+1690,Stone Game VII,563,120,4.691666666666666,Medium
+1657,Determine if Two Strings Are Close,556,32,17.375,Medium
+1706,Where Will the Ball Fall,551,43,12.813953488372093,Medium
+1138,Alphabet Board Path,551,128,4.3046875,Medium
+1834,Single-Threaded CPU,549,80,6.8625,Medium
+1679,Max Number of K-Sum Pairs,548,22,24.90909090909091,Medium
+1419,Minimum Number of Frogs Croaking,548,36,15.222222222222221,Medium
+781,Rabbits in Forest,546,440,1.240909090909091,Medium
+1415,The k-th Lexicographical String of All Happy Strings of Length n,545,15,36.333333333333336,Medium
+750,Number Of Corner Rectangles,543,82,6.621951219512195,Medium
+1529,Bulb Switcher IV,539,27,19.962962962962962,Medium
+1654,Minimum Jumps to Reach Home,532,113,4.707964601769912,Medium
 1727,Largest Submatrix With Rearrangements,523,17,30.764705882352942,Medium
+1136,Parallel Courses,522,15,34.8,Medium
 1245,Tree Diameter,520,11,47.27272727272727,Medium
 624,Maximum Distance in Arrays,518,59,8.779661016949152,Medium
-1151,Minimum Swaps to Group All 1's Together,514,4,128.5,Medium
-1915,Number of Wonderful Substrings,479,33,14.515151515151516,Medium
+1229,Meeting Scheduler,516,23,22.434782608695652,Medium
+251,Flatten 2D Vector,513,286,1.7937062937062938,Medium
+447,Number of Boomerangs,510,802,0.6359102244389028,Medium
+722,Remove Comments,508,1384,0.3670520231213873,Medium
+869,Reordered Power of 2,502,160,3.1375,Medium
+1663,Smallest String With A Given Numeric Value,492,19,25.894736842105264,Medium
+294,Flip Game II,491,45,10.911111111111111,Medium
+1653,Minimum Deletions to Make String Balanced,487,14,34.785714285714285,Medium
+1888,Minimum Number of Flips to Make the Binary String Alternating,483,16,30.1875,Medium
+1233,Remove Sub-Folders from the Filesystem,483,71,6.802816901408451,Medium
+1297,Maximum Number of Occurrences of a Substring,478,253,1.8893280632411067,Medium
+1648,Sell Diminishing-Valued Colored Balls,475,156,3.0448717948717947,Medium
+1609,Even Odd Tree,473,32,14.78125,Medium
 1743,Restore the Array From Adjacent Pairs,471,7,67.28571428571429,Medium
+1261,Find Elements in a Contaminated Binary Tree,471,71,6.633802816901408,Medium
+1541,Minimum Insertions to Balance a Parentheses String,471,99,4.757575757575758,Medium
+1003,Check If Word Is Valid After Substitutions,469,416,1.1274038461538463,Medium
+360,Sort Transformed Array,467,134,3.485074626865672,Medium
+1638,Count Substrings That Differ by One Character,466,188,2.478723404255319,Medium
+651,4 Keys Keyboard,465,66,7.045454545454546,Medium
+384,Shuffle an Array,465,474,0.9810126582278481,Medium
+825,Friends Of Appropriate Ages,462,921,0.501628664495114,Medium
 1722,Minimize Hamming Distance After Swap Operations,461,13,35.46153846153846,Medium
+484,Find Permutation,461,74,6.22972972972973,Medium
+1615,Maximal Network Rank,459,94,4.882978723404255,Medium
+1650,Lowest Common Ancestor of a Binary Tree III,458,15,30.533333333333335,Medium
+1492,The kth Factor of n,458,164,2.792682926829268,Medium
+1391,Check if There is a Valid Path in a Grid,454,218,2.0825688073394497,Medium
 1911,Maximum Alternating Subsequence Sum,449,5,89.8,Medium
-1976,Number of Ways to Arrive at Destination,449,14,32.07142857142857,Medium
+1898,Maximum Number of Removable Characters,445,58,7.672413793103448,Medium
 1570,Dot Product of Two Sparse Vectors,443,60,7.383333333333334,Medium
-1594,Maximum Non Negative Product in a Matrix,430,21,20.476190476190474,Medium
+1072,Flip Columns For Maximum Number of Equal Rows,440,34,12.941176470588236,Medium
+1561,Maximum Number of Coins You Can Get,437,68,6.426470588235294,Medium
+1062,Longest Repeating Substring,436,25,17.44,Medium
+1884,Egg Drop With 2 Eggs and N Floors,431,33,13.06060606060606,Medium
+1170,Compare Strings by Frequency of the Smallest Character,429,850,0.5047058823529412,Medium
+1508,Range Sum of Sorted Subarray Sums,427,82,5.2073170731707314,Medium
+1770,Maximum Score from Performing Multiplication Operations,418,94,4.446808510638298,Medium
+756,Pyramid Transition Matrix,418,407,1.027027027027027,Medium
+904,Fruit Into Baskets,413,21,19.666666666666668,Medium
+1015,Smallest Integer Divisible by K,413,414,0.9975845410628019,Medium
+1882,Process Tasks Using Servers,411,125,3.288,Medium
+444,Sequence Reconstruction,409,1317,0.3105542900531511,Medium
+1139,Largest 1-Bordered Square,406,72,5.638888888888889,Medium
 1616,Split Two Strings to Make Palindrome,405,185,2.189189189189189,Medium
-1780,Check if Number is a Sum of Powers of Three,397,15,26.466666666666665,Medium
-1513,Number of Substrings With Only 1s,397,20,19.85,Medium
+1087,Brace Expansion,404,36,11.222222222222221,Medium
+955,Delete Columns to Make Sorted II,399,61,6.540983606557377,Medium
+1451,Rearrange Words in a Sentence,398,57,6.982456140350878,Medium
 1996,The Number of Weak Characters in the Game,395,16,24.6875,Medium
+1792,Maximum Average Pass Ratio,395,50,7.9,Medium
+1734,Decode XORed Permutation,394,15,26.266666666666666,Medium
+1131,Maximum of Absolute Value Expression,394,298,1.3221476510067114,Medium
+885,Spiral Matrix III,394,464,0.8491379310344828,Medium
+984,String Without AAA or BBB,391,306,1.2777777777777777,Medium
+1404,Number of Steps to Reduce a Number in Binary Representation to One,390,33,11.818181818181818,Medium
+1343,Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold,389,50,7.78,Medium
+1711,Count Good Meals,388,169,2.2958579881656807,Medium
+1765,Map of Highest Peak,386,28,13.785714285714286,Medium
+1562,Find Latest Group of Size M,384,85,4.517647058823529,Medium
+1059,All Paths from Source Lead to Destination,382,68,5.617647058823529,Medium
 1686,Stone Game VI,378,29,13.03448275862069,Medium
 1802,Maximum Value at a Given Index in a Bounded Array,377,57,6.614035087719298,Medium
-1775,Equal Sum Arrays With Minimum Number of Operations,376,10,37.6,Medium
-1930,Unique Length-3 Palindromic Subsequences,344,11,31.272727272727273,Medium
+1798,Maximum Number of Consecutive Values You Can Make,376,29,12.96551724137931,Medium
+649,Dota2 Senate,374,280,1.3357142857142856,Medium
+1877,Minimize Maximum Pair Sum in Array,372,89,4.179775280898877,Medium
+1861,Rotating the Box,370,20,18.5,Medium
+1963,Minimum Number of Swaps to Make the String Balanced,368,19,19.36842105263158,Medium
+1674,Minimum Moves to Make Array Complementary,362,48,7.541666666666667,Medium
+1986,Minimum Number of Work Sessions to Finish the Tasks,355,18,19.72222222222222,Medium
+1855,Maximum Distance Between a Pair of Values,351,7,50.142857142857146,Medium
+1386,Cinema Seat Allocation,350,192,1.8229166666666667,Medium
+1573,Number of Ways to Split a String,349,49,7.122448979591836,Medium
+858,Mirror Reflection,347,688,0.5043604651162791,Medium
+1536,Minimum Swaps to Arrange a Binary Grid,346,55,6.290909090909091,Medium
+1188,Design Bounded Blocking Queue,345,29,11.89655172413793,Medium
+1753,Maximum Score From Removing Stones,344,28,12.285714285714286,Medium
+1324,Print Words Vertically,343,81,4.234567901234568,Medium
+1901,Find a Peak Element II,342,24,14.25,Medium
+1318,Minimum Flips to Make a OR b Equal to c,341,32,10.65625,Medium
+522,Longest Uncommon Subsequence II,337,992,0.3397177419354839,Medium
+1471,The k Strongest Values in an Array,336,84,4.0,Medium
 1870,Minimum Speed to Arrive on Time,335,67,5.0,Medium
+1558,Minimum Numbers of Function Calls to Make Target Array,334,19,17.57894736842105,Medium
+1818,Minimum Absolute Sum Difference,334,39,8.564102564102564,Medium
 1762,Buildings With an Ocean View,333,58,5.741379310344827,Medium
-1080,Insufficient Nodes in Root to Leaf Paths,324,433,0.7482678983833718,Medium
+1242,Web Crawler Multithreaded,333,62,5.370967741935484,Medium
+393,UTF-8 Validation,329,1410,0.23333333333333334,Medium
+1670,Design Front Middle Back Queue,325,62,5.241935483870968,Medium
+640,Solve the Equation,325,648,0.5015432098765432,Medium
+1718,Construct the Lexicographically Largest Valid Sequence,323,25,12.92,Medium
 2017,Grid Game,322,7,46.0,Medium
-966,Vowel Spellchecker,322,685,0.47007299270072994,Medium
-1942,The Number of the Smallest Unoccupied Chair,301,15,20.066666666666666,Medium
+1214,Two Sum BSTs,322,29,11.10344827586207,Medium
+1429,First Unique Number,321,16,20.0625,Medium
+1981,Minimize the Difference Between Target and Chosen Elements,319,70,4.557142857142857,Medium
+1227,Airplane Seat Assignment Probability,313,575,0.5443478260869565,Medium
+1100,Find K-Length Substrings With No Repeated Characters,312,6,52.0,Medium
+1910,Remove All Occurrences of a Substring,312,24,13.0,Medium
+1906,Minimum Absolute Difference Queries,311,23,13.521739130434783,Medium
+909,Snakes and Ladders,310,61,5.081967213114754,Medium
+1814,Count Nice Pairs in an Array,309,16,19.3125,Medium
+1828,Queries on Number of Points Inside a Circle,309,36,8.583333333333334,Medium
+439,Ternary Expression Parser,308,40,7.7,Medium
+1774,Closest Dessert Cost,306,34,9.0,Medium
+192,Word Frequency,304,205,1.4829268292682927,Medium
+1198,Find Smallest Common Element in All Rows,303,21,14.428571428571429,Medium
+1942,The Number of the Smallest Unoccupied Chair,302,15,20.133333333333333,Medium
+1195,Fizz Buzz Multithreaded,302,237,1.2742616033755274,Medium
+998,Maximum Binary Tree II,297,580,0.5120689655172413,Medium
+2008,Maximum Earnings From Taxi,295,8,36.875,Medium
+1850,Minimum Adjacent Swaps to Reach the Kth Smallest Number,295,41,7.195121951219512,Medium
+1117,Building H2O,291,81,3.5925925925925926,Medium
+1680,Concatenation of Consecutive Binary Numbers,291,195,1.4923076923076923,Medium
+1839,Longest Substring Of All Vowels in Order,289,11,26.272727272727273,Medium
+573,Squirrel Simulation,287,31,9.258064516129032,Medium
+1503,Last Moment Before All Ants Fall Out of a Plank,287,168,1.7083333333333333,Medium
+1409,Queries on a Permutation With Key,284,471,0.6029723991507431,Medium
+1476,Subrectangle Queries,284,774,0.3669250645994832,Medium
+1926,Nearest Exit from Entrance in Maze,276,13,21.23076923076923,Medium
+1182,Shortest Distance to Target Color,275,10,27.5,Medium
+608,Tree Node,273,17,16.058823529411764,Medium
+1701,Average Waiting Time,273,29,9.413793103448276,Medium
+1487,Making File Names Unique,273,432,0.6319444444444444,Medium
+1754,Largest Merge Of Two Strings,272,43,6.325581395348837,Medium
+531,Lonely Pixel I,269,34,7.911764705882353,Medium
 1522,Diameter of N-Ary Tree,267,4,66.75,Medium
 2002,Maximum Product of the Length of Two Palindromic Subsequences,264,19,13.894736842105264,Medium
+1253,Reconstruct a 2-Row Binary Matrix,264,20,13.2,Medium
+1702,Maximum Binary String After Change,263,32,8.21875,Medium
+1980,Find Unique Binary String,262,14,18.714285714285715,Medium
+963,Minimum Area Rectangle II,261,356,0.7331460674157303,Medium
+1644,Lowest Common Ancestor of a Binary Tree II,260,9,28.88888888888889,Medium
+379,Design Phone Directory,259,359,0.7214484679665738,Medium
+519,Random Flip Matrix,257,82,3.1341463414634148,Medium
+1829,Maximum XOR for Each Query,255,18,14.166666666666666,Medium
 1997,First Day Where You Have Been in All the Rooms,254,39,6.512820512820513,Medium
+666,Path Sum IV,254,347,0.7319884726224783,Medium
+1817,Finding the Users Active Minutes,251,95,2.642105263157895,Medium
+1540,Can Convert String in K Moves,248,196,1.2653061224489797,Medium
 1927,Sum Game,246,34,7.235294117647059,Medium
+1887,Reduction Operations to Make the Array Elements Equal,245,11,22.272727272727273,Medium
+755,Pour Water,240,547,0.43875685557586835,Medium
+1152,Analyze User Website Visit Pattern,238,2160,0.11018518518518519,Medium
+1781,Sum of Beauty of All Substrings,236,75,3.1466666666666665,Medium
+457,Circular Array Loop,234,179,1.3072625698324023,Medium
+816,Ambiguous Coordinates,234,554,0.4223826714801444,Medium
+553,Optimal Division,230,1309,0.17570664629488159,Medium
+1144,Decrease Elements To Make Array Zigzag,229,132,1.7348484848484849,Medium
+1807,Evaluate the Bracket Pairs of a String,225,22,10.227272727272727,Medium
+602,Friend Requests II: Who Has the Most Friends,225,65,3.4615384615384617,Medium
+808,Soup Servings,225,685,0.3284671532846715,Medium
+1169,Invalid Transactions,225,1242,0.18115942028985507,Medium
+1738,Find Kth Largest XOR Coordinate Value,222,38,5.842105263157895,Medium
+2007,Find Original Array From Doubled Array,221,22,10.045454545454545,Medium
+1899,Merge Triplets to Form Target Triplet,219,18,12.166666666666666,Medium
+1454,Active Users,219,22,9.954545454545455,Medium
 1943,Describe the Painting,218,12,18.166666666666668,Medium
 758,Bold Words in String,215,107,2.0093457943925235,Medium
+1922,Count Good Numbers,213,181,1.1767955801104972,Medium
+1272,Remove Interval,212,19,11.157894736842104,Medium
+1016,Binary String With Substrings Representing 1 To N,212,431,0.4918793503480278,Medium
+534,Game Play Analysis III,210,7,30.0,Medium
 2024,Maximize the Confusion of an Exam,205,3,68.33333333333333,Medium
 1865,Finding Pairs With a Certain Sum,204,66,3.090909090909091,Medium
+1166,Design File System,203,19,10.68421052631579,Medium
 1750,Minimum Length of String After Deleting Similar Ends,202,14,14.428571428571429,Medium
-1975,Maximum Matrix Sum,198,7,28.285714285714285,Medium
+356,Line Reflection,202,440,0.4590909090909091,Medium
+1985,Find the Kth Largest Integer in the Array,201,33,6.090909090909091,Medium
+1730,Shortest Path to Get Food,199,8,24.875,Medium
+1238,Circular Permutation in Binary Representation,198,146,1.356164383561644,Medium
+1962,Remove Stones to Minimize the Total,197,8,24.625,Medium
+1164,Product Price at a Given Date,197,53,3.7169811320754715,Medium
+1321,Restaurant Growth,196,28,7.0,Medium
+970,Powerful Integers,196,57,3.43859649122807,Medium
+1564,Put Boxes Into the Warehouse I,195,17,11.470588235294118,Medium
+1485,Clone Binary Tree With Random Pointer,195,37,5.27027027027027,Medium
 2033,Minimum Operations to Make a Uni-Value Grid,193,15,12.866666666666667,Medium
-2012,Sum of Beauty in the Array,191,19,10.052631578947368,Medium
+2012,Sum of Beauty in the Array,191,20,9.55,Medium
+1212,Team Scores in Football Tournament,190,17,11.176470588235293,Medium
 1625,Lexicographically Smallest String After Applying Operations,189,212,0.8915094339622641,Medium
+1737,Change Minimum Characters to Satisfy One of Three Conditions,187,221,0.8461538461538461,Medium
+1490,Clone N-ary Tree,185,12,15.416666666666666,Medium
+1676,Lowest Common Ancestor of a Binary Tree IV,184,6,30.666666666666668,Medium
 1992,Find All Groups of Farmland,183,10,18.3,Medium
+1073,Adding Two Negabinary Numbers,183,78,2.3461538461538463,Medium
+1276,Number of Burgers with No Waste of Ingredients,182,171,1.064327485380117,Medium
+570,Managers with at Least 5 Direct Reports,181,24,7.541666666666667,Medium
 1968,Array With Elements Not Equal to Average of Neighbors,179,15,11.933333333333334,Medium
 1881,Maximum Value after Insertion,178,37,4.8108108108108105,Medium
+1602,Find Nearest Right Node in Binary Tree,177,3,59.0,Medium
+1311,Get Watched Videos by Your Friends,174,262,0.6641221374045801,Medium
+1258,Synonymous Sentences,172,64,2.6875,Medium
+1813,Sentence Similarity III,168,36,4.666666666666667,Medium
+550,Game Play Analysis IV,168,39,4.3076923076923075,Medium
+1936,Add Minimum Number of Rungs,164,13,12.615384615384615,Medium
+1894,Find the Student that Will Replace the Chalk,164,30,5.466666666666667,Medium
+1806,Minimum Number of Operations to Reinitialize a Permutation,160,93,1.7204301075268817,Medium
+1061,Lexicographically Smallest Equivalent String,159,8,19.875,Medium
 2034,Stock Price Fluctuation ,158,15,10.533333333333333,Medium
 1764,Form Array by Concatenating Subarrays of Another Array,158,19,8.31578947368421,Medium
+1418,Display Table of Food Orders in a Restaurant,158,294,0.5374149659863946,Medium
+1895,Largest Magic Square,157,176,0.8920454545454546,Medium
+1954,Minimum Garden Perimeter to Collect Enough Apples,155,52,2.980769230769231,Medium
 2001,Number of Pairs of Interchangeable Rectangles,154,15,10.266666666666667,Medium
 2028,Find Missing Observations,152,6,25.333333333333332,Medium
-1846,Maximum Element After Decreasing and Rearranging,136,34,4.0,Medium
+1600,Throne Inheritance,152,210,0.7238095238095238,Medium
+1112,Highest Grade For Each Student,151,4,37.75,Medium
+288,Unique Word Abbreviation,149,1568,0.09502551020408163,Medium
+1077,Project Employees III,147,3,49.0,Medium
+1740,Find Distance in a Binary Tree,147,9,16.333333333333332,Medium
+1993,Operations on Tree,138,33,4.181818181818182,Medium
+1914,Cyclically Rotating a Grid,134,206,0.6504854368932039,Medium
 1904,The Number of Full Rounds You Have Played,131,188,0.6968085106382979,Medium
+1746,Maximum Subarray Sum After One Operation,130,2,65.0,Medium
+1583,Count Unhappy Friends,130,487,0.2669404517453799,Medium
+1398,Customers Who Bought Products A and B but Not C,129,4,32.25,Medium
+1053,Previous Permutation With One Swap,129,15,8.6,Medium
 2013,Detect Squares,128,62,2.064516129032258,Medium
+1891,Cutting Ribbons,127,5,25.4,Medium
+1660,Correct a Binary Tree,127,18,7.055555555555555,Medium
+1430,Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree,123,9,13.666666666666666,Medium
+1801,Number of Orders in the Backlog,123,150,0.82,Medium
+1410,HTML Entity Parser,123,242,0.5082644628099173,Medium
 2039,The Time When the Network Becomes Idle,122,6,20.333333333333332,Medium
 2023,Number of Pairs of Strings With Concatenation Equal to Target,122,10,12.2,Medium
+1432,Max Difference You Can Get From Changing an Integer,122,168,0.7261904761904762,Medium
+558,Logical OR of Two Binary Grids Represented as Quad-Trees,120,382,0.31413612565445026,Medium
+1058,Minimize Rounding Error to Meet Target,119,113,1.0530973451327434,Medium
 1637,Widest Vertical Area Between Two Points Containing No Points,119,391,0.30434782608695654,Medium
+1580,Put Boxes Into the Warehouse II,117,1,117.0,Medium
+1308,Running Total for Different Genders,117,20,5.85,Medium
 1797,Design Authentication Manager,116,23,5.043478260869565,Medium
+1586,Binary Search Tree Iterator II,115,17,6.764705882352941,Medium
+1554,Strings Differ by One Character,114,2,57.0,Medium
+1836,Remove Duplicates From an Unsorted Linked List,114,4,28.5,Medium
+1946,Largest Number After Mutating Substring,114,142,0.8028169014084507,Medium
+1733,Minimum Number of People to Teach,112,274,0.40875912408759124,Medium
+1878,Get Biggest Three Rhombus Sums in a Grid,109,262,0.41603053435114506,Medium
+574,Winning Candidate,108,365,0.2958904109589041,Medium
 2044,Count Number of Maximum Bitwise-OR Subsets,106,12,8.833333333333334,Medium
+1501,Countries You Can Safely Invest In,106,15,7.066666666666666,Medium
 2038,Remove Colored Pieces if Both Neighbors are the Same Color,105,9,11.666666666666666,Medium
+1393,Capital Gain/Loss,101,17,5.9411764705882355,Medium
+1756,Design Most Recently Used Queue,98,7,14.0,Medium
 1804,Implement Trie II (Prefix Tree),96,6,16.0,Medium
+1132,Reported Posts II,96,316,0.3037974683544304,Medium
 2018,Check if Word Can Be Placed In Crossword,95,106,0.8962264150943396,Medium
 2029,Stone Game IX,94,156,0.6025641025641025,Medium
-1107,New Users Daily Count,89,72,1.2361111111111112,Medium
+1778,Shortest Path in a Hidden Grid,92,40,2.3,Medium
 194,Transpose File,89,229,0.388646288209607,Medium
+1868,Product of Two Run-Length Encoded Arrays,88,13,6.769230769230769,Medium
+1193,Monthly Transactions I,88,16,5.5,Medium
+1205,Monthly Transactions II,88,291,0.3024054982817869,Medium
+1783,Grand Slam Titles,77,0,77.0,Medium
+1699,Number of Calls Between Two Persons,77,2,38.5,Medium
 1348,Tweet Counts Per Frequency,77,140,0.55,Medium
+469,Convex Polygon,77,206,0.3737864077669903,Medium
+1612,Check If Two Expression Trees are Equivalent,76,15,5.066666666666666,Medium
 1682,Longest Palindromic Subsequence II,76,18,4.222222222222222,Medium
 1555,Bank Account Summary,73,16,4.5625,Medium
+1744,Can You Eat Your Favorite Candy on Your Favorite Day?,73,239,0.3054393305439331,Medium
+1341,Movie Rating,72,37,1.945945945945946,Medium
+1532,The Most Recent Three Orders,71,3,23.666666666666668,Medium
+1698,Number of Distinct Substrings in a String,70,17,4.117647058823529,Medium
+1149,Article Views II,69,23,3.0,Medium
+1709,Biggest Window Between Visits,68,2,34.0,Medium
+1958,Check if Move is Legal,68,152,0.4473684210526316,Medium
+578,Get Highest Answer Rate Question,68,726,0.09366391184573003,Medium
+1618,Maximum Font to Fit a Sentence in a Screen,65,11,5.909090909090909,Medium
+1070,Product Sales Analysis III,65,222,0.2927927927927928,Medium
 2043,Simple Bank System,61,57,1.0701754385964912,Medium
 555,Split Concatenated Strings,61,224,0.27232142857142855,Medium
-1820,Maximum Number of Accepted Invitations,48,12,4.0,Medium
+1181,Before and After Puzzle,60,135,0.4444444444444444,Medium
+1599,Maximum Profit of Operating a Centennial Wheel,59,197,0.29949238578680204,Medium
+1468,Calculate Salaries,58,11,5.2727272727272725,Medium
+1858,Longest Word With All Prefixes,56,3,18.666666666666668,Medium
+1747,Leetflex Banned Accounts,55,2,27.5,Medium
+1620,Coordinate With Maximum Network Quality,54,174,0.3103448275862069,Medium
+1874,Minimize Product Sum of Two Arrays,53,7,7.571428571428571,Medium
+1940,Longest Common Subsequence Between Sorted Arrays,52,1,52.0,Medium
+1634,Add Two Polynomials Represented as Linked Lists,50,3,16.666666666666668,Medium
+1852,Distinct Numbers in Each Subarray,49,2,24.5,Medium
 1885,Count Pairs in Two Arrays,47,3,15.666666666666666,Medium
 1459,Rectangles Area,46,72,0.6388888888888888,Medium
+528,Random Pick with Weight,42,5,8.4,Medium
+1715,Count Apples and Oranges,41,5,8.2,Medium
+1810,Minimum Path Cost in a Hidden Grid,41,14,2.9285714285714284,Medium
+1666,Change the Root of a Binary Tree,39,98,0.3979591836734694,Medium
 1949,Strong Friendship,36,9,4.0,Medium
+1772,Sort Features by Popularity,34,27,1.2592592592592593,Medium
+351,Android Unlock Patterns,33,30,1.1,Medium
 1973,Count Nodes Equal to Sum of Descendants,32,1,32.0,Medium
+1843,Suspicious Bank Accounts,31,14,2.2142857142857144,Medium
+1841,League Statistics,31,15,2.066666666666667,Medium
+1500,Design a File Sharing System,31,75,0.41333333333333333,Medium
 835,Image Overlap,30,7,4.285714285714286,Medium
+1093,Statistics from a Large Sample,30,34,0.8823529411764706,Medium
+2021,Brightest Position on Street,28,0,28.0,Medium
+1831,Maximum Transaction Each Day,27,0,27.0,Medium
+1875,Group Employees of the Same Salary,27,2,13.5,Medium
+2031,Count Subarrays With More Ones Than Zeros,24,3,8.0,Medium
 1794,Count Pairs of Equal Substrings With Minimum Difference,23,28,0.8214285714285714,Medium
+1989,Maximum Number of People That Can Be Caught in Tag,22,4,5.5,Medium
+1907,Count Salary Categories,20,9,2.2222222222222223,Medium
+1867,Orders With Maximum Quantity Above Average,20,60,0.3333333333333333,Medium
+789,Escape The Ghosts,19,4,4.75,Medium
 2015,Average Height of Buildings in Each Segment,18,9,2.0,Medium
 2046,Sort Linked List Already Sorted Using Absolute Values,16,0,16.0,Medium
+1951,All the Pairs With the Maximum Number of Common Followers,15,0,15.0,Medium
+874,Walking Robot Simulation,14,2,7.0,Medium
 1934,Confirmation Rate,14,6,2.3333333333333335,Medium
-1908,Game of Nim,11,12,0.9166666666666666,Medium
 1988,Find Cutoff Score for Each School,9,14,0.6428571428571429,Medium
 1999,Smallest Greater Multiple Made of Two Digits,8,0,8.0,Medium
 2041,Accepted Candidates From the Interviews,6,7,0.8571428571428571,Medium
-2020,Number of Accounts That Did Not Stream,3,12,0.25,Medium
+751,IP to CIDR,6,25,0.24,Medium
+2020,Number of Accounts That Did Not Stream,3,13,0.23076923076923078,Medium
 1990,Count the Number of Experiments,2,25,0.08,Medium

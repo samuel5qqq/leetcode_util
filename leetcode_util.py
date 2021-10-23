@@ -1,4 +1,6 @@
 import asyncio
+import random
+
 import click
 import json
 import logging
@@ -9,17 +11,27 @@ import csv
 
 
 async def get_question_info(client, question):
-    query = """
-    query questionData($titleSlug: String!) {\n  question(titleSlug: $titleSlug) {\n    questionId\n    questionFrontendId\n    boundTopicId\n    title\n    titleSlug\n    content\n    translatedTitle\n    translatedContent\n    isPaidOnly\n    difficulty\n    likes\n    dislikes\n    isLiked\n    similarQuestions\n    contributors {\n      username\n      profileUrl\n      avatarUrl\n      __typename\n    }\n    langToValidPlayground\n    topicTags {\n      name\n      slug\n      translatedName\n      __typename\n    }\n    companyTagStats\n    codeSnippets {\n      lang\n      langSlug\n      code\n      __typename\n    }\n    stats\n    hints\n    solution {\n      id\n      canSeeDetail\n      __typename\n    }\n    status\n    sampleTestCase\n    metaData\n    judgerAvailable\n    judgeType\n    mysqlSchemas\n    enableRunCode\n    enableTestMode\n    envInfo\n    libraryUrl\n    __typename\n  }\n}\n
-    """
+    query = """query questionData($titleSlug: String!) {\n  question(titleSlug: $titleSlug) {\n    questionId\n    
+    questionFrontendId\n    boundTopicId\n    title\n    titleSlug\n    content\n    translatedTitle\n    
+    translatedContent\n    isPaidOnly\n    difficulty\n    likes\n    dislikes\n    isLiked\n   companyTagStats\n \n}\n}\n """
     body = {"operationName": "questionData",
             "variables": {"titleSlug": question},
             "query": query}
 
     url = "https://leetcode.com/graphql"
+    retry = 0
+    max_try = 20
 
-    async with client.post(url, json=body) as resp:
-        response = await resp.read()
+    while retry < max_try:
+        try:
+            async with client.post(url, json=body) as resp:
+                response = await resp.read()
+                resp.raise_for_status()
+            break
+        except aiohttp.ClientError:
+            print("retrying on question {}".format(question))
+            await asyncio.sleep(random.randrange(10))
+            retry += 1
 
     try:
         return json.loads(response)["data"]["question"]
@@ -70,7 +82,6 @@ def to_csv(questions):
 @click.command()
 @click.option('--difficulty', default=['Easy', 'Medium', 'Hard'], help='difficulty of questions', multiple=True)
 def questions_filtration(difficulty):
-    print(difficulty)
     filter_criteria = {'difficulty': difficulty}
     loop = asyncio.get_event_loop()
     questions_info = loop.run_until_complete(get_all_leetcode_questions())
